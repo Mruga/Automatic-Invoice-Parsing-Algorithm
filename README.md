@@ -1,3 +1,3 @@
-# Automatic Invoice Parser Algorithm
+# Algorithm for Automatic Invoice Parser 
 
 
