@@ -1,0 +1,12 @@
+issuer: HANDELSRECHNUNG
+fields:
+  invoice_number: (\d{11})
+  amount: GESAMTRECHNUNGSBETRAG:\s+(\d+[,/]\d+[./]\d)
+  date: (\d{4}[-/]\d{2}[-/]\d{1,2})
+keywords:
+  - HANDELSRECHNUNG
+  - INVOICE
+options:
+  currency: EUR
+  languages:
+    - en

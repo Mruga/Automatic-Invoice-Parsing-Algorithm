@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+issuer: HUNTSMAN
+fields:
+  amount: USD\s+(\d+[,/]\d+[./]\d)
+  date: (\d{2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4})
+  invoice_number: (\d{8})
+keywords:
+  - HUNTSMAN
+  - INVOICE
+options:
+  currency: USD
+  languages:
+    - en

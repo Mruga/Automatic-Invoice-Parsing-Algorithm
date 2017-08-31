@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+issuer: WM-RECYCLE AMERICA L.L.C.
+fields:
+  amount: AMOUNT:\s(\d+\,\d+(?:\.\d+)?)
+  date: DATE:\s+(\d{1}[-/]\d{2}[-/]\d{4})
+  invoice_number: WMRA INVOICE NUMBER:\s+(\d{5}[a-zA-Z][-/]\d{2})
+keywords:
+  - WM-RECYCLE AMERICA L.L.C.
+  - COMMERCIAL INVOICE
+options:
+  currency: USD
+  languages:
+    - en
+

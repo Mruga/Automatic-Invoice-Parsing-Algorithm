@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+issuer: CONTINENTAL
+fields:
+  amount: Total amount of invoice in CNY\s+(\d+\.\d+)
+  date: invoice Date\s+(\d{2}[//]\d{2}[//]\d{4})
+  invoice_number: Invoice Number\s+(\d{8})
+keywords:
+  - COMMERCIAL INVOICE
+  - Continental
+options:
+  currency: CNY
+  languages:
+    - en
+

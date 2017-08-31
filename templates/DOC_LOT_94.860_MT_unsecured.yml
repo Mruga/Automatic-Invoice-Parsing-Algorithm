@@ -1,0 +1,12 @@
+issuer: ANZ RECYCLING, SUITE 1/197,
+fields:
+  invoice_number: .+?([A-Z]{3}\d{3}[A-Z])
+  amount: TOTAL.+?(\d+\,\d+(?:\.\d+)?)
+  date: .+?(\d{2}[-/]\d{2}[-/]\d{4})
+keywords:
+  - FOR ANZ RECYCLING
+  - COMMERCIAL INVOICE
+options:
+  currency: USD
+  languages:
+    - en

@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+issuer: K-C INTERNATIONAL, LLC
+fields:
+  amount: INVOICE TOTAL:\s+USD\s+(\d+\,\d+(?:\.)?\d)
+  date: INVOICE DATE\s+(\d{4}[-/]\d{2}[-/]\d{2})
+  invoice_number: INVOICE NO:\s+(\d{6})
+keywords:
+  - K-C INTERNATIONAL, LLC
+  - COMMERCIAL INVOICE
+options:
+  currency: USD
+  languages:
+    - en
+

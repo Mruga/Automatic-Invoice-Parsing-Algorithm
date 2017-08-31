@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+issuer: Alfing Montagetechnik  GmbH
+fields:
+  amount: TOTAL ORDER  VALUE:\s+EUR\s+(\d+\.\d+(?:\,\d+)?)
+  date: (\d{2}[./]\d{2}[./]\d{4})
+  invoice_number: Invoice No.:\s+(\d{8})
+keywords:
+  - Ford India Private Limited
+  - EUR
+  - Invoice
+options:
+  currency: EUR
+  languages:
+  - en
+

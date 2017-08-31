@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+issuer: ExxonMobil Chemical Asia Pacific
+fields:
+  amount: USD\s+(\d+[,/]\d+[./]\d+)
+  date: (\d{2}[-/](?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[-/]\d{4})
+  invoice_number: INVOICE NUMBER\s+(\d{8})
+keywords:
+  - ExxonMobil Chemical Asia Pacific
+  - COMMERCIAL INVOICE
+options:
+  currency: USD
+  languages:
+    - en
